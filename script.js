@@ -1,7 +1,9 @@
+// select element
 const btn = document.querySelector(".btn")
 const input = document.querySelector("#input")
 const listel = document.querySelector(".list-item")
 
+// start writing
 btn.addEventListener("click",()=>{
     if(input.value === ""){
         alert("please enter text first")
